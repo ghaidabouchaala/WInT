@@ -70,11 +70,11 @@ export default class WInT extends React.Component {
   render() {
     return (
       <View>
-        <Image source={asset('person.png')} style={{width: 500, height: 300}} />
+        
         <View style={styles.attractionBox}>
           <VrButton onClick={() => surfaceModule.start()}>
             <Text style={styles.attractionText}>
-              Want to see Who's teacher in there and which subject is he teaching ! Click Here!
+              Want to see Who's teacher in there and which subject is he teaching ! Click !
             </Text>
           </VrButton>
         </View>
